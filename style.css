@@ -27,31 +27,38 @@ button:hover {
 
 nav {
   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
-  position: sticky;
+ position: relative;
   top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 10px;
   background: white;
   padding: 10px;
   z-index: 50;
+
 }
 .navigation {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1d5c6;
+    align-items: center;
 }
 
 .container {
   max-width: 1200px;
+  /* height: 25px; */
   margin: 0 auto;
 }
 .bar_icon {
   font-size: 32px;
 }
+.logo_container img{
+  height: 5em;
+}
 
 /* Hero Section */
 .hero {
   display: flex;
-  gap: 100px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -73,16 +80,17 @@ nav {
   line-height: 1.2;
   font-weight: 400;
 }
-.explore_btn {
-  background: #6454ff;
+a {
+  background: #149f39;
   align-self: flex-start;
   color: #050505;
   font-weight: 1000;
-  font-size: medium;
+  font-size: 1.5em;
   font-family: Poppins;
   padding: 1em 2em;
-  border-radius: 0.3 em;
   text-decoration: none;
+  border-radius: 30em;
+ 
   
 
 }
