@@ -74,11 +74,15 @@ nav {
   font-weight: 400;
 }
 .explore_btn {
-  background: #e2f605;
+  background: #6454ff;
   align-self: flex-start;
   color: #050505;
   font-weight: 1000;
   font-size: medium;
+  font-family: Poppins;
+  padding: 1em 2em;
+  border-radius: 0.3 em;
+  text-decoration: none;
   
 
 }
