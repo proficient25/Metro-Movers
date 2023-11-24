@@ -74,9 +74,15 @@ nav {
   font-weight: 400;
 }
 .explore_btn {
-  background: #ffc066;
+  background: #e2f605;
   align-self: flex-start;
+  color: #050505;
+  font-weight: 1000;
+  font-size: medium;
+  
+
 }
+
 
 /* Features Section */
 .features {
