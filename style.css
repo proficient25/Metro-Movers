@@ -107,10 +107,13 @@ a {
 .feature {
   display: flex;
   align-items: center;
+  width: fit-content;
   gap: 5px;
   padding: 5px;
   transition: 0.2s ease-in-out;
+  
 }
+
 .feature img {
   width: 72px;
 }
