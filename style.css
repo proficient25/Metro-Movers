@@ -98,16 +98,17 @@ a {
 
 /* Features Section */
 .features {
-  margin-top: 100px;
+  margin-top: 20px;
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .feature {
   display: flex;
-  gap: 20px;
-  padding: 20px;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
   transition: 0.2s ease-in-out;
 }
 .feature img {
@@ -247,3 +248,4 @@ footer {
     flex-direction: column;
   }
 }
+
